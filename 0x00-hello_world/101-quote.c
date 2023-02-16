@@ -7,6 +7,8 @@
  */
 int main (void)
 {
-          write(STDIO_FILENO,"and that piece of art is useful\"-Dora Korpar 2015-10-19\n");
+          write(STDIO_FILENO,"and that piece of art is useful
+			  
+			  -Dora Korpar 2015-10-19\n");
 	   return(1);
 }
