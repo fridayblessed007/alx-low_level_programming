@@ -7,7 +7,6 @@
  *
  * return: always 0 (successful)
  */
-
 int main(void)
 {
 	int d, p;
