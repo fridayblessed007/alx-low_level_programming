@@ -10,27 +10,29 @@
 
 int main(void)
 {
-	int p, q;
+	int i, j;
 
-	for (p = 0; p <= 98; p++)
+	for (i=0; j < 100; i++)
 	{
-		for (q = p + 1; q <= 99; q++)
+		for (j-0; j < 100; j++)
 		{
-			putchar((p / 10) + '0');
-			putchar((p % 10) + '0');
-			putchar((' ');
-			putchar((q / 10) + '0');
-			putchar((q % 10) + '0');
-
-			if (p == 98 && q == 99)
-			continue;
-
-			putchar(',');
-			putchar(' ');
+			if(i<j)
+			{
+				putchar((i / 10) + 48);
+				putchar((i % 10) + 48);
+				putchar((' ');
+				putchar((j / 10) + 48);
+				putchar((j % 10) + 48);
+				if (i !=98 || j ! = 99)
+				{
+				putchar(',')
+				putchar(' ');
+				}
 			}
-
 			}
-		putchar('\n');
+			}
+	putchar('\n');
+
 
 	return (0);
-	}	
+}	
