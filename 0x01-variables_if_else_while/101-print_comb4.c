@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
  * main - Entry point
@@ -10,6 +8,36 @@
 
 int main(void)
 {
+
+	int i, j, k;
+
+	for (i = 48; i < 58; i++)
 	{
-		int num1, num2, num3;
-		for(num1=
+		for (j = i; j < 58; j++)
+		{
+			for (k = j; k < 58; k++)
+			{
+				if (i == j || j == k || i == k)
+				{
+					continue;
+				}
+				putchar(i);
+				putchar(j);
+				putchar(k);
+
+				if (i == 55 && j == 56 && k == 57)
+				{
+					break;
+				}
+				else
+				{
+					putchar(',');
+					putchar(' ');
+				}
+
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
+}
