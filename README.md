@@ -80,7 +80,7 @@ A C program that prints exactly and that piece of art is useful" - Dora Korpar, 
 int main(void) { write(2, "and that piece of art is useful" - Dora Korpar, 2015-10-19\n", 61);
 
 
-<div style="background-color: rgb(50, 50, 50);">[return (1);
+<div style="background-color: # 87 86 80;">[return (1);
   </div>
 } }
 
