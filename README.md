@@ -22,7 +22,7 @@
 * There should be no errors and no warnings during compilation
 * You are not allowed to use system
 * Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
-* # 0-preprocessor: Preprocessor
+*  # 0-preprocessor: Preprocessor
 *A script that runs a C file through the preprocessor and save the result into another file. The C file name will be saved in the variable $CFILE; The output should be saved in the file c using gcc $CFILE -E -o c.*
 
 # 1-compiler: Compiler
@@ -79,5 +79,5 @@ A C program that prints exactly and that piece of art is useful" - Dora Korpar, 
 
 int main(void) { write(2, "and that piece of art is useful" - Dora Korpar, 2015-10-19\n", 61);
 
-*[return (1);](README.md)
+[return (1);](README.md)
 } }
