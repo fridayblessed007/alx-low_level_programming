@@ -1,4 +1,4 @@
-[C - Hello, World](README.md)
+# [C - Hello, World]
 # General
 *Why C programming is awesome 
 Who invented C
