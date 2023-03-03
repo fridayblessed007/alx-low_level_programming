@@ -64,8 +64,8 @@ printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(a));
 printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(b));
 printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(c));
 printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
-return (0);*
-} }](https://www.programiz.com/c-programming/examples/sizeof-operator-example)
+return (0);
+} }]*(https://www.programiz.com/c-programming/examples/sizeof-operator-example)
 
 # 100-intel: Intel
 A script that generates the assembly code (Intel syntax) of a C code and save it in an output file. The C file name will be saved in the variable $CFILE. The output file should be named the same as the C file, but with the extension .s instead of .c.
@@ -76,9 +76,9 @@ Example: if the C file is main.c, the output file should be main.s using gcc -S 
 A C program that prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error. You are not allowed to use any functions listed in the NAME section of the man (3) printf or man (3) puts; Your program should return 1; Your program should compile without any warnings when using the -Wall gcc option using:
 
 { #include <stdio.h>
-
+```
 int main(void) { write(2, "and that piece of art is useful" - Dora Korpar, 2015-10-19\n", 61);
-
+```
 ```
 return (1);
  
