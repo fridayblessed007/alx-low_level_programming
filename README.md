@@ -22,7 +22,7 @@
 * There should be no errors and no warnings during compilation
 * You are not allowed to use system
 * Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
-*  # 0-preprocessor: Preprocessor
+# 0-preprocessor: Preprocessor
 *A script that runs a C file through the preprocessor and save the result into another file. The C file name will be saved in the variable $CFILE; The output should be saved in the file c using gcc $CFILE -E -o c.*
 
 # 1-compiler: Compiler
@@ -64,7 +64,7 @@ printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(a));
 printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(b));
 printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(c));
 printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
-return (0);
+return (0);*
 } }](https://www.programiz.com/c-programming/examples/sizeof-operator-example)
 
 # 100-intel: Intel
@@ -83,4 +83,4 @@ int main(void) { write(2, "and that piece of art is useful" - Dora Korpar, 2015-
 return (1);
  
 ```
-}}
+} }
