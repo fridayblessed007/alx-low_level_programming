@@ -82,4 +82,4 @@ int main(void) { write(2, "and that piece of art is useful" - Dora Korpar, 2015-
 
 <div style="background-color: rgb(50, 50, 50);">[return (1);](README.md)
 } }
-<div/>
+</div>
