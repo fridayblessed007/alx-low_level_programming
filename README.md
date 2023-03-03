@@ -1,6 +1,6 @@
 # [C - Hello, World]
 # General
-*Why C programming is awesome 
+Why C programming is awesome 
 Who invented C
 Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
 What happens when you type gcc main.c
@@ -12,16 +12,16 @@ How to compile using gcc
 What is the default program name when compiling with gcc
 What is the official Holberton C coding style and how to check your code with betty-style
 How to find the right header to include in your source code when using a standard library function
-How does the main function influence the return value of the program*
+How does the main function influence the return value of the program
 ## Requirements C
-*Allowed editors: vi, vim, emacs
+Allowed editors: vi, vim, emacs
 All your files will be compiled on Ubuntu 14.04 LTS using gcc 4.8.4
 All your files should end with a new line
 A README.md file at the root of the holbertonschool-low_level_programming repo, containing a description of the repository
 A README.md file, at the root of the folder of this project, containing a description of the project
 There should be no errors and no warnings during compilation
 You are not allowed to use system
-Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl*
+Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
 # 0-preprocessor: Preprocessor
 A script that runs a C file through the preprocessor and save the result into another file. The C file name will be saved in the variable $CFILE; The output should be saved in the file c using gcc $CFILE -E -o c.
 
@@ -65,7 +65,7 @@ printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(b));
 printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(c));
 printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
 return (0);
-} }](y)
+} }]()
 
 # 100-intel: Intel
 A script that generates the assembly code (Intel syntax) of a C code and save it in an output file. The C file name will be saved in the variable $CFILE. The output file should be named the same as the C file, but with the extension .s instead of .c.
@@ -79,5 +79,5 @@ A C program that prints exactly and that piece of art is useful" - Dora Korpar, 
 
 int main(void) { write(2, "and that piece of art is useful" - Dora Korpar, 2015-10-19\n", 61);
 
-[return (1);](y)
+[return (1);]()
 } }
