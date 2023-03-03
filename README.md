@@ -42,21 +42,21 @@ A script that compiles a C file and creates an executable named cisfun. The C fi
 A C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.. Use the function puts; You are not allowed to use printf; Your program should end with the value 0 using:
 
 #include <stdio.h>
-
+```
 int main(void) { puts("Programming is like building a multilingual puzzle\n"); return (0); }
-
+```
 # 5-printf.c: Hello, printf
 A C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line. Use the function printf; You are not allowed to use the function puts; Your program should return 0; Your program should compile without warning when using the -Wall gcc option using:
 
 { #include <stdio.h>
-
+```
 int main(void) { printf("with proper grammar, but the outcome is a piece of art,\n"); return (0); } }
-
+```
 # 6-size.c: Size is not grandeur, and territory does not make a nation
 A C program that prints the size of various types on the computer it is compiled and run on. You should produce the exact same output as in the example; Warnings are allowed; Your program should return 0; You might have to install the package libc6-dev-i386 on your Linux (Vagrant) to test the -m32 gcc option using:
 
 { #include <stdio.h>
-
+```
 int main(void) { int a; long int b; long long int c; char d; float f;
 ```
 *[printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(d));
@@ -65,8 +65,8 @@ printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(b));
 printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(c));
 printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
 return (0);
-} }](https://www.programiz.com/c-programming/examples/sizeof-operator-example)*
-```
+} }](https://www.programiz.com/c-programming/examples/sizeof-operator-example)
+
 # 100-intel: Intel
 A script that generates the assembly code (Intel syntax) of a C code and save it in an output file. The C file name will be saved in the variable $CFILE. The output file should be named the same as the C file, but with the extension .s instead of .c.
 
@@ -80,7 +80,7 @@ A C program that prints exactly and that piece of art is useful" - Dora Korpar, 
 int main(void) { write(2, "and that piece of art is useful" - Dora Korpar, 2015-10-19\n", 61);
 
 ```
-[return (1);]
-  
-} }
+return (1);
+ 
 ```
+}}
