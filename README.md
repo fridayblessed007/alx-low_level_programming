@@ -58,7 +58,7 @@ A C program that prints the size of various types on the computer it is compiled
 { #include <stdio.h>
 
 int main(void) { int a; long int b; long long int c; char d; float f;
-
+```
 *[printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(d));
 printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(a));
 printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(b));
@@ -66,7 +66,7 @@ printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(c));
 printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
 return (0);
 } }](https://www.programiz.com/c-programming/examples/sizeof-operator-example)*
-
+```
 # 100-intel: Intel
 A script that generates the assembly code (Intel syntax) of a C code and save it in an output file. The C file name will be saved in the variable $CFILE. The output file should be named the same as the C file, but with the extension .s instead of .c.
 
