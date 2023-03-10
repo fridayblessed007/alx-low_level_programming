@@ -110,7 +110,7 @@ julien@ubuntu:~/0x09. Static Librairies$ nm libmy.a
 _putchar.o:
 0000000000000000 T _putchar
                  U write
-julien@ubuntu:~/0x09. Static Librairies$ cat main.c 
+0x09. Static Librairies$ cat main.c 
 #include "main.h"
 
 int main(void)
@@ -119,8 +119,8 @@ int main(void)
     return (0);
     
     
-    Create a script called `create_static_lib.sh` that creates a static library called `liball.a` from all the `.c` files that are in the current directory.
-julien@ubuntu:~/0x09. Static Librairies$ ls .c
+    Create a script called create_static_lib.sh that creates a static library called liball.a from all the .c files that are in the current directory.
+0x09. Static Librairies$ ls .c
 0-isupper.c  0-strcat.c  1-isdigit.c  1-strncat.c  2-strlen.c   3-islower.c  3-strcmp.c  4-isalpha.c  5-strstr.c  9-strcpy.c  _putchar.c
 0-memset.c   100-atoi.c  1-memcpy.c   2-strchr.c   2-strncpy.c  3-puts.c     3-strspn.c  4-strpbrk.c  6-abs.c
 julien@ubuntu:~/0x09. Static Librairies$ ./create_static_lib.sh 
