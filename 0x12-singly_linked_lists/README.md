@@ -2,10 +2,10 @@
 
 ## Read or watch:
 
-*    Linked Lists
-*    Google
-*    Youtube
-*    Data Structures
+  [Linked Lists](https://www.youtube.com/watch?v=udapt4FGY20&t=130s)
+  Google
+  Youtube
+  Data Structures
 
 ## Learning Objectives
 
