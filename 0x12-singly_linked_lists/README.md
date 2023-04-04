@@ -1,11 +1,11 @@
-# ** 0x12. C - Singly linked lists**
+# *0x12. C - Singly linked lists*
 
 ## Read or watch:
 
-*    Linked Lists
-*    Google
-*    Youtube
-*    Data Structures
+*  [Linked Lists](https://www.youtube.com/watch?v=udapt4FGY20&t=130s)
+ * [Google](https://www.google.com/#q=linked+lists)
+ * [Youtube](https://www.youtube.com/results?search_query=linked+lists)
+  
 
 ## Learning Objectives
 
