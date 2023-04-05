@@ -1,8 +1,4 @@
-
-#include <stdio.h>
-#include <stdlib.h>
 #include "lists.h"
-
 /**
  * print_listint_safe - Prints a linked list of integers
  * @head: Pointer to the head node of the list
