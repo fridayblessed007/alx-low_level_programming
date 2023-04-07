@@ -5,7 +5,7 @@
 *Read or watch*
 
 * [Google](https://www.programiz.com/c-programming/bitwise-operators)
-* [Youtube](https://www.youtube.com/results?search_query=0x14.+c+-+bit+manipulation)
+* [Youtube](https://www.youtube.com/watch?v=jlQmeyce65Q)
 
 # Tasks
 ## 0. Write a function that converts a binary number to an unsigned int.
