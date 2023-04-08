@@ -46,7 +46,7 @@ Learning Objectives
 *    All your header files should be include guarded
 *    Tip: always prefer using symbolic constants (POSIX) vs numbers when it makes sense. For instance read(STDIN_FILENO, ... vs read(0,....
 
-## 0. Tread lightly, she is near mandatory
+## 0. Tread lightly, she is near `mandatory`
 
 Write a function that reads a text file and prints it to the POSIX standard output.
 
