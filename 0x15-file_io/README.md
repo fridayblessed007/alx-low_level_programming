@@ -6,13 +6,13 @@
 *   [C Programming in Linux Tutorial #024 - open() read() write() Functions](https://m.youtube.com/watch?v=e-srF6c3TJ8)
 
 man or help:
-
-*    open
+`
+*     open
 *    close
 *    read
 *    write
 *    dprintf
-
+`
 Learning Objectives
 
 *    Look for the right source of information online
