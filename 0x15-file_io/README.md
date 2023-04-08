@@ -2,7 +2,7 @@
 
 ## Resources
 
-*   File descriptors
+*   [File descriptors](https://en.m.wikipedia.org/wiki/File_descriptor)
 *   C Programming in Linux Tutorial #024 - open() read() write() Functions
 
 man or help:
