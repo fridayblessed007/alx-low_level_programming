@@ -2,8 +2,8 @@
 
 ## Resources
 
-*   File descriptors
-*   C Programming in Linux Tutorial #024 - open() read() write() Functions
+*   [File descriptors](https://en.m.wikipedia.org/wiki/File_descriptor)
+*   [C Programming in Linux Tutorial #024 - open() read() write() Functions](https://m.youtube.com/watch?v=e-srF6c3TJ8)
 
 man or help:
 
@@ -46,7 +46,7 @@ Learning Objectives
 *    All your header files should be include guarded
 *    Tip: always prefer using symbolic constants (POSIX) vs numbers when it makes sense. For instance read(STDIN_FILENO, ... vs read(0,....
 
-## 0. Tread lightly, she is near mandatory
+## 0. Tread lightly, she is near `mandatory`
 
 Write a function that reads a text file and prints it to the POSIX standard output.
 
@@ -58,7 +58,7 @@ Write a function that reads a text file and prints it to the POSIX standard outp
 *    if write fails or does not write the expected amount of bytes, return 0
 
 
-## 1. Under the snow mandatory
+## 1. Under the snow `mandatory`
 
 Create a function that creates a file.
 
@@ -71,7 +71,7 @@ Create a function that creates a file.
 *    if text_content is NULL create an empty file
 
 
-## 2. Speak gently, she can hear mandatory
+## 2. Speak gently, she can hear `mandatory`
 
 Write a function that appends text at the end of a file.
 
@@ -83,7 +83,7 @@ Write a function that appends text at the end of a file.
 *    If text_content is NULL, do not add anything to the file. Return 1 if the file exists and -1 if the file does not exist or if you do not have the required permissions to write the file
 
 
-## 3. cp mandatory
+## 3. cp `mandatory`
 
 Write a program that copies the content of a file to another file.
 
@@ -100,7 +100,7 @@ Write a program that copies the content of a file to another file.
 *    You must read 1,024 bytes at a time from the file_from to make less system calls. Use a buffer
 *    You are allowed to use dprintf
 
-## 4. elf #advanced
+## 4. elf `#advanced`
 
 Write a program that displays the information contained in the ELF header at the start of an ELF file.
 
